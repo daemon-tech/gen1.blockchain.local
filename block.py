@@ -1,7 +1,9 @@
 import datetime
+
 from hashlib import sha256
 
 class Block:
+  
   def __init__(self, transactions, previous_hash):
     self.time_stamp = datetime.datetime.now()
     self.transactions = transactions
@@ -12,10 +14,12 @@ class Block:
   def generate_hash(self):
     block_header = str(self.time_stamp) + str(self.transactions) +str(self.previous_hash) + str(self.nonce)
     block_hash = sha256(block_header.encode())
-    return block_hash.hexdigest()
+    block_hash_hex = block_hash.hexdigest()
+    return block_hash_hex
 
   def print_contents(self):
-    print("timestamp:", self.time_stamp)
-    print("transactions:", self.transactions)
-    print("current hash:", self.generate_hash())
-    print("previous hash:", self.previous_hash) 
+    print("Data :")
+    print("Timestamp -> ", self.time_stamp)
+    print("Transactions -> ", self.transactions)
+    print("Current Hash -> ", self.generate_hash())
+    print("Previous Hash -> ", self.previous_hash) 
