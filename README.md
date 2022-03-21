@@ -1,4 +1,4 @@
-# Cryptic Discord Bot
+# Simple PoW
 
 [![Build Status](https://github.com/github/opensource.guide/workflows/GitHub%20Actions%20CI/badge.svg)](https://github.com/le3ch-tech/gen1.blockchain.local/graphs/traffic)
 
