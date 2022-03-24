@@ -10,6 +10,12 @@ Completely for test purposes only.
 
 Postman would be a good option.
 
+Otherwise POS integration will come later.
+
 ## For Issues: 
 
 [![Build Status](https://img.shields.io/github/issues/le3ch-tech/gen1.blockchain.local?label=Issues)](https://github.com/le3ch-tech/gen1.blockchain.local/issues)
+
+## Changes
+
+
