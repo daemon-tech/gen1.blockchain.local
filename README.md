@@ -18,4 +18,4 @@ Otherwise POS integration will come later.
 
 ## Changes
 
-24/03/
+24/03/2022
