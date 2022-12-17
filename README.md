@@ -6,7 +6,7 @@ Small simplified Blockchain for fast knowledge expanding.
 
 ## Information towards build.
 
-Completely for test purposes only.
+Completely for test or study purposes only.
 
 Postman would be a good option.
 
