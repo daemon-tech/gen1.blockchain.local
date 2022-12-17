@@ -10,7 +10,6 @@ Completely for test purposes only.
 
 Postman would be a good option.
 
-Otherwise POS integration will come later.
 
 ## For Issues: 
 
